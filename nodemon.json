@@ -1,0 +1,6 @@
+{
+  "watch": ["app.js", "routes.js", "public", "webpack.config.js"],
+  "ext": "js, vue, json",
+  "pollingInterval": 1000,
+  "legacyWatch": true
+}

@@ -1,0 +1,31 @@
+{
+  "name": "oneexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --legacy-watch app.js",
+    "dev": "nodemon --legacy-watch --ext js,css,scss,json,vue app.js",
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack serve --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli": "^5.0.8",
+    "babel-loader": "^8.3.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.3",
+    "vue": "^3.4.14",
+    "vue-loader": "^17.4.2",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "mysql2": "latest",
+    "ws": "^8.16.0"
+  }
+}
